@@ -14,7 +14,7 @@ Alternatively, copy `wordpress-secure-users.php` into `wp-content/plugins/wordpr
 
 For logged-out visitors, unregisters:
 - `/wp/v2/users`
-- `/wp/v2/users/(?P<id>[\\d]+)`
+- `/wp/v2/users/(?P<id>[\d]+)`
 
 Logged-in access remains subject to WordPress's normal permissions. Other endpoints are unchanged.
 
